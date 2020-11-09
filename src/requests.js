@@ -11,8 +11,6 @@ export default {
     fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
     fetchMysteryMovies: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
     fetchTVMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
-    fetchAnimationMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10774`,
-    
-
+    fetchUpcomingMovies: `movie/upcoming?api_key=${API_KEY}&language=en-US&page=1`,
 
 };

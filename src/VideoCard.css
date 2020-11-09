@@ -1,4 +1,4 @@
-.VideoCard{
+.VideoCard {
     color: white;
     width: 500px;
     height: 400px;
@@ -6,25 +6,25 @@
     transition: transform 100ms ease-in-out;
 }
 
-.vidStats{
+.vidStats {
     display: none;
 }
 
-.VideoCard:hover > .vidStats{
+.VideoCard:hover>.vidStats {
     display: inline;
 }
 
-.VideoCard:hover{
+.VideoCard:hover {
     transform: scale(1.09);
 }
 
-.VideoCard > img{
+.VideoCard>img {
     height: 300px;
     object-fit: contain;
     width: 500px;
 }
 
-.VideoCard > h2{
+.VideoCard>h2 {
     padding-top: 10px;
 
 }
