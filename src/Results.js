@@ -14,8 +14,6 @@ function Results( {selectedOption}) {
             const request =await axios.get(selectedOption);
             setMovies(request.data.results);
             return request;
-
-
         }
 
         fetchData()
@@ -29,11 +27,8 @@ function Results( {selectedOption}) {
             <VideoCard key={movie.id} movie ={movie} />
         ))}
             
-        </FlipMove>
-        
-            
+        </FlipMove>           
         </div>
     )
 }
-
 export default Results
