@@ -1,4 +1,4 @@
- This project is hosted on firebase at # https://hulu-clone-6a0fb.web.app/
+ This project is hosted on firebase at https://hulu-clone-6a0fb.web.app/
 
 
 
